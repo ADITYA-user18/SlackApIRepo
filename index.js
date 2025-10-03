@@ -59,7 +59,7 @@ async function deleteMessage(ts) {
       channel: channelId,
       ts: ts
     });
-    console.log('Message deleted ✅');
+    console.log('Message deleted ');
   } catch (err) {
     console.error('Error deleting message:', err);
   }
